@@ -5,9 +5,66 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js" ></script>
-    <title></title>
+    <title>FortuneTeller</title>
   </head>
   <body>
+    <div class="container">
+          <div class="jumbotron">
+            <h2>Forune Telling</h2>
+          </div>
+          <form id="events">
+            <div class="form-group">
+              <p>In the past year,check all events that have occured to you</p>
+              <input type="checkbox" name="unlucky-events" value="tooth-loss">Lost A Tooth<br>
+              <input type="checkbox" name="unlucky-events" value="umbrella">Openened An Umbrella Indoors<br>
+              <input type="checkbox" name="unlucky-events" value="mirror">Broke A Mirror<br>
+              <input type="checkbox" name="unlucky-events" value="Ladder">Walked Under A Ladder<br>
+              <input type="checkbox" name="unlucky-events" value="friend-curse">Became Cursed By A Friend<br>
+              <input type="checkbox" name="unlucky-events" value="pyramid">Raided An Egyptian Pyramid<br>
+              <input type="checkbox" name="unlucky-events" value="cat">Black Cat Crossed Your Path<br>
+              <input type="checkbox" name="unlucky-events" value="crack">Stepped On A Crack<br>
+            </div>
+           <div class="form-group">
+          <p>In the past year, check all events that have occured to you</p>
+          <input type="checkbox" name="lucky-events" value="clover">Found A Four-Leafed Clover<br>
+          <input type="checkbox" name="lucky-events" value="Jesus">Discovered Jesus<br>
+          <input type="checkbox" name="lucky-events" value="well">Visited A Wishing Well<br>
+          <input type="checkbox" name="lucky-events" value="penny">Picked Up A Penny That Was Facing Heads Up<br>
+          <input type="checkbox" name="lucky-events" value="dragon">Got Bitten By A Dragon During A Dragon Dance<br>
+          <input type="checkbox" name="lucky-events" value="cricket">Caught A Cricket<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="unlucky-responses">
+        <p><b>These are all your unlucky events that you have had in the past year:</b></p>
+      </span>
+      <br>
+      <span id="lucky-responses">
+        <p><b>These are all the lucky events that you have had in the past year:</b></p>
+      </span>
+    </div>
+
+    <div class="result" id="unlucky">
+      <h2>Dark Days Are Ahead</h2>
+      <p>According to my sources, your life path is descending in a direction that will cause bad luck and misfortune for the rest of your days. Perhaps you have been cursed, or you just had a <strong>really</strong> bad week. Try these methods to reverse your bad luck:</p>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <div class="result" id="lucky">
+      <h2>Wow! I'm Impressed!</h2>
+      <p>Your luck is plentiful! Here's what you can do to prevent that from changing:</p>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+
+    <div class="result" id="neutral">
+      <h2>Your Path Is Still Unclear.</h2>
+      <p>According to my sources, nothing has happened. Nothing will happen. You are floating in a void and must be retrieved from the plane of ultimate neutrality. Good luck!</p>
+    </div>
 
   </body>
 </html>
